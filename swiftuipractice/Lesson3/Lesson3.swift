@@ -37,7 +37,53 @@ struct Lesson3: View {
             Form {
                 firstSectionView
                 secondSection
-                thirdSectionView
+//                thirdSectionView
+                Section {
+                    Toggle(isOn: $isOnAirplaneMode) {
+                        HStack {
+                            setupIcon(color: .orange, image: .plane)
+                            Text(Constant.airplaneModeText)
+                                .font(.system(size: 18, weight: .regular))
+                        }
+                    }
+                    Picker(selection: $selectionFirstWifi, content: {
+                        ForEach(sectionWiFi.indices, id: \.self) { 
+                            Text(sectionWiFi[$0])
+                        }
+                    }, label: {
+                        setupIcon(color: .blue, image: .wifi)
+                        Text(Constant.wiFiText)
+                    }).pickerStyle(.navigationLink)
+                    
+                    
+    
+                    Picker(selection: $selectionFirstBluetooth, content: {
+                        ForEach(selectionOnOff.indices, id: \.self) {  
+                            Text(selectionOnOff[$0])
+                        }
+                    }, label: {
+                        setupIcon(color: .blue, image: .bluetooth)
+                        Text(Constant.bluetoothText)
+                    }).pickerStyle(.navigationLink)
+                    NavigationLink {} label: {
+                        setupIcon(color: .green, image: .cellularCommunication)
+                        Text(Constant.cellularCommunicationText)
+                    }
+                    Picker(selection: $selectionFirstBluetooth, content: {
+                        ForEach(selectionOnOff.indices, id: \.self) {  Text(selectionOnOff[$0])
+                        }
+                    }, label: {
+                        setupIcon(color: .green, image: .modemMode)
+                        Text(Constant.modemModeText)
+                    }).pickerStyle(.navigationLink)
+        
+                    Toggle(isOn: $isOnVPN) {
+                        HStack {
+                            setupIcon(color: .green, image: .vpn)
+                            Text(Constant.vPNText)
+                        }
+                    }
+                }
             }.navigationTitle(Text(Constant.settingsText))
         }
     }
@@ -85,53 +131,6 @@ struct Lesson3: View {
                         Text(Constant.threeText)
                             .foregroundColor(.white)
                     }
-                }
-            }
-        }
-    }
-    
-    private var thirdSectionView: some View {
-        Section {
-            Toggle(isOn: $isOnAirplaneMode) {
-                HStack {
-                    setupIcon(color: .orange, image: .plane)
-                    Text(Constant.airplaneModeText)
-                        .font(.system(size: 18, weight: .regular))
-                }
-            }
-            Picker(selection: $selectionFirstWifi, content: {
-                ForEach(sectionWiFi.indices, id: \.self) { Text(sectionWiFi[$0])
-                }
-            }, label: {
-                setupIcon(color: .blue, image: .wifi)
-                Text(Constant.wiFiText)
-            }).pickerStyle(.navigationLink)
-            
-            Picker(selection: $selectionFirstBluetooth, content: {
-                ForEach(selectionOnOff.indices, id: \.self) {  Text(selectionOnOff[$0])
-                }
-            }, label: {
-                setupIcon(color: .blue, image: .bletus)
-                Text(Constant.bluetoothText)
-            }).pickerStyle(.navigationLink)
-            
-            NavigationLink {} label: {
-                setupIcon(color: .green, image: .cellularCommunication)
-                Text(Constant.cellularCommunicationText)
-            }
-            
-            Picker(selection: $selectionFirstBluetooth, content: {
-                ForEach(selectionOnOff.indices, id: \.self) {  Text(selectionOnOff[$0])
-                }
-            }, label: {
-                setupIcon(color: .green, image: .modemMode)
-                Text(Constant.modemModeText)
-            }).pickerStyle(.navigationLink)
-            
-            Toggle(isOn: $isOnVPN) {
-                HStack {
-                    setupIcon(color: .green, image: .vpn)
-                    Text(Constant.vPNText)
                 }
             }
         }
