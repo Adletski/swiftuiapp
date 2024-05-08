@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
+@available(iOS 16.0, *)
 struct swiftuipracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView3()
         }
     }
 }
