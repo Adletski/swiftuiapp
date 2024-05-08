@@ -7,24 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F6D4C902BE8CADC00424557 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D4C8F2BE8CADC00424557 /* MainView.swift */; };
+		7F6D4C922BE8CB2000424557 /* VpnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D4C912BE8CB2000424557 /* VpnView.swift */; };
+		7F6D4C942BE8CB3D00424557 /* PurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D4C932BE8CB3D00424557 /* PurchaseView.swift */; };
+		7F6D4C962BE8CB6800424557 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D4C952BE8CB6800424557 /* CartView.swift */; };
+		7F6D4C992BE8CBA900424557 /* BuyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D4C982BE8CBA900424557 /* BuyView.swift */; };
+		7F6D4C9B2BE8CBC500424557 /* CountryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D4C9A2BE8CBC500424557 /* CountryListView.swift */; };
+		7F6D4C9D2BE8CBDC00424557 /* CountrySelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D4C9C2BE8CBDC00424557 /* CountrySelectView.swift */; };
+		7F6D4C9F2BE8CC8400424557 /* UserPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D4C9E2BE8CC8400424557 /* UserPurchase.swift */; };
+		7F6D4CA12BE8CC9500424557 /* Tariff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D4CA02BE8CC9500424557 /* Tariff.swift */; };
+		7F8BAD502BE6124A00E36B3A /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAD4F2BE6124A00E36B3A /* CurrencyFormatter.swift */; };
+		7F8BAD522BE6126E00E36B3A /* OrderScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAD512BE6126E00E36B3A /* OrderScreenViewModel.swift */; };
+		7F8BAD542BE6128400E36B3A /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAD532BE6128400E36B3A /* ActivityView.swift */; };
+		7F8BAD562BE6129700E36B3A /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAD552BE6129700E36B3A /* OrderView.swift */; };
+		7F8BAD582BE612B000E36B3A /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAD572BE612B000E36B3A /* ContentView2.swift */; };
+		7F8BAD5A2BE612C100E36B3A /* CarInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAD592BE612C100E36B3A /* CarInfo.swift */; };
 		7FF276AA2BDF8726007FCC1D /* swiftuipracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF276A92BDF8726007FCC1D /* swiftuipracticeApp.swift */; };
 		7FF276AC2BDF8726007FCC1D /* Lesson1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF276AB2BDF8726007FCC1D /* Lesson1.swift */; };
 		7FF276AE2BDF8727007FCC1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF276AD2BDF8727007FCC1D /* Assets.xcassets */; };
 		7FF276B12BDF8727007FCC1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF276B02BDF8727007FCC1D /* Preview Assets.xcassets */; };
 		7FF276B82BDFB98D007FCC1D /* Lesson2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF276B72BDFB98D007FCC1D /* Lesson2.swift */; };
-		7FF276BA2BE0389B007FCC1D /* practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF276B92BE0389B007FCC1D /* practice.swift */; };
 		7FF276BC2BE0E9C4007FCC1D /* Lesson3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF276BB2BE0E9C4007FCC1D /* Lesson3.swift */; };
+		7FF276BE2BE252C2007FCC1D /* Lesson4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF276BD2BE252C2007FCC1D /* Lesson4.swift */; };
+		7FF276C02BE26E96007FCC1D /* waydown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FF276BF2BE26E96007FCC1D /* waydown.mp3 */; };
+		7FF276C22BE2737E007FCC1D /* deephouse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FF276C12BE2737E007FCC1D /* deephouse.mp3 */; };
+		7FF276C42BE27387007FCC1D /* skripka.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FF276C32BE27387007FCC1D /* skripka.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F6D4C8F2BE8CADC00424557 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7F6D4C912BE8CB2000424557 /* VpnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VpnView.swift; sourceTree = "<group>"; };
+		7F6D4C932BE8CB3D00424557 /* PurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseView.swift; sourceTree = "<group>"; };
+		7F6D4C952BE8CB6800424557 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		7F6D4C982BE8CBA900424557 /* BuyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyView.swift; sourceTree = "<group>"; };
+		7F6D4C9A2BE8CBC500424557 /* CountryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListView.swift; sourceTree = "<group>"; };
+		7F6D4C9C2BE8CBDC00424557 /* CountrySelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectView.swift; sourceTree = "<group>"; };
+		7F6D4C9E2BE8CC8400424557 /* UserPurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPurchase.swift; sourceTree = "<group>"; };
+		7F6D4CA02BE8CC9500424557 /* Tariff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tariff.swift; sourceTree = "<group>"; };
+		7F8BAD4F2BE6124A00E36B3A /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		7F8BAD512BE6126E00E36B3A /* OrderScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderScreenViewModel.swift; sourceTree = "<group>"; };
+		7F8BAD532BE6128400E36B3A /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		7F8BAD552BE6129700E36B3A /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		7F8BAD572BE612B000E36B3A /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		7F8BAD592BE612C100E36B3A /* CarInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfo.swift; sourceTree = "<group>"; };
 		7FF276A62BDF8726007FCC1D /* swiftuipractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuipractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF276A92BDF8726007FCC1D /* swiftuipracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuipracticeApp.swift; sourceTree = "<group>"; };
 		7FF276AB2BDF8726007FCC1D /* Lesson1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson1.swift; sourceTree = "<group>"; };
 		7FF276AD2BDF8727007FCC1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FF276B02BDF8727007FCC1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7FF276B72BDFB98D007FCC1D /* Lesson2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson2.swift; sourceTree = "<group>"; };
-		7FF276B92BE0389B007FCC1D /* practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice.swift; sourceTree = "<group>"; };
 		7FF276BB2BE0E9C4007FCC1D /* Lesson3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson3.swift; sourceTree = "<group>"; };
+		7FF276BD2BE252C2007FCC1D /* Lesson4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson4.swift; sourceTree = "<group>"; };
+		7FF276BF2BE26E96007FCC1D /* waydown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = waydown.mp3; path = ../../../Downloads/waydown.mp3; sourceTree = "<group>"; };
+		7FF276C12BE2737E007FCC1D /* deephouse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = deephouse.mp3; path = ../../../Downloads/deephouse.mp3; sourceTree = "<group>"; };
+		7FF276C32BE27387007FCC1D /* skripka.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = skripka.mp3; path = ../../../Downloads/skripka.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +74,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F6D4C8E2BE8CA2D00424557 /* Lesson7_8_9 */ = {
+			isa = PBXGroup;
+			children = (
+				7F6D4C972BE8CB9900424557 /* Views */,
+				7F6D4C8F2BE8CADC00424557 /* MainView.swift */,
+				7F6D4C912BE8CB2000424557 /* VpnView.swift */,
+				7F6D4C932BE8CB3D00424557 /* PurchaseView.swift */,
+				7F6D4C952BE8CB6800424557 /* CartView.swift */,
+				7F6D4C9E2BE8CC8400424557 /* UserPurchase.swift */,
+				7F6D4CA02BE8CC9500424557 /* Tariff.swift */,
+			);
+			path = Lesson7_8_9;
+			sourceTree = "<group>";
+		};
+		7F6D4C972BE8CB9900424557 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7F6D4C982BE8CBA900424557 /* BuyView.swift */,
+				7F6D4C9A2BE8CBC500424557 /* CountryListView.swift */,
+				7F6D4C9C2BE8CBDC00424557 /* CountrySelectView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7F8BAD4E2BE6123A00E36B3A /* OmodaCar_Lesson5 */ = {
+			isa = PBXGroup;
+			children = (
+				7F8BAD4F2BE6124A00E36B3A /* CurrencyFormatter.swift */,
+				7F8BAD512BE6126E00E36B3A /* OrderScreenViewModel.swift */,
+				7F8BAD532BE6128400E36B3A /* ActivityView.swift */,
+				7F8BAD552BE6129700E36B3A /* OrderView.swift */,
+				7F8BAD572BE612B000E36B3A /* ContentView2.swift */,
+				7F8BAD592BE612C100E36B3A /* CarInfo.swift */,
+			);
+			path = OmodaCar_Lesson5;
+			sourceTree = "<group>";
+		};
+		7F8BAD5B2BE612D500E36B3A /* Lesson1 */ = {
+			isa = PBXGroup;
+			children = (
+				7FF276AB2BDF8726007FCC1D /* Lesson1.swift */,
+			);
+			path = Lesson1;
+			sourceTree = "<group>";
+		};
+		7F8BAD5C2BE612E100E36B3A /* Lesson2 */ = {
+			isa = PBXGroup;
+			children = (
+				7FF276B72BDFB98D007FCC1D /* Lesson2.swift */,
+			);
+			path = Lesson2;
+			sourceTree = "<group>";
+		};
+		7F8BAD5D2BE612E900E36B3A /* Lesson3 */ = {
+			isa = PBXGroup;
+			children = (
+				7FF276BB2BE0E9C4007FCC1D /* Lesson3.swift */,
+			);
+			path = Lesson3;
+			sourceTree = "<group>";
+		};
+		7F8BAD5E2BE612F300E36B3A /* Player_Lesson4 */ = {
+			isa = PBXGroup;
+			children = (
+				7FF276BD2BE252C2007FCC1D /* Lesson4.swift */,
+			);
+			path = Player_Lesson4;
+			sourceTree = "<group>";
+		};
+		7F8BAD5F2BE6134700E36B3A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7FF276AD2BDF8727007FCC1D /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		7FF2769D2BDF8726007FCC1D = {
 			isa = PBXGroup;
 			children = (
@@ -57,13 +170,18 @@
 		7FF276A82BDF8726007FCC1D /* swiftuipractice */ = {
 			isa = PBXGroup;
 			children = (
+				7F6D4C8E2BE8CA2D00424557 /* Lesson7_8_9 */,
+				7F8BAD5E2BE612F300E36B3A /* Player_Lesson4 */,
+				7F8BAD5D2BE612E900E36B3A /* Lesson3 */,
+				7F8BAD5C2BE612E100E36B3A /* Lesson2 */,
+				7F8BAD5B2BE612D500E36B3A /* Lesson1 */,
+				7F8BAD4E2BE6123A00E36B3A /* OmodaCar_Lesson5 */,
 				7FF276A92BDF8726007FCC1D /* swiftuipracticeApp.swift */,
-				7FF276AB2BDF8726007FCC1D /* Lesson1.swift */,
-				7FF276AD2BDF8727007FCC1D /* Assets.xcassets */,
+				7F8BAD5F2BE6134700E36B3A /* Assets */,
 				7FF276AF2BDF8727007FCC1D /* Preview Content */,
-				7FF276B72BDFB98D007FCC1D /* Lesson2.swift */,
-				7FF276B92BE0389B007FCC1D /* practice.swift */,
-				7FF276BB2BE0E9C4007FCC1D /* Lesson3.swift */,
+				7FF276BF2BE26E96007FCC1D /* waydown.mp3 */,
+				7FF276C12BE2737E007FCC1D /* deephouse.mp3 */,
+				7FF276C32BE27387007FCC1D /* skripka.mp3 */,
 			);
 			path = swiftuipractice;
 			sourceTree = "<group>";
@@ -135,6 +253,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FF276B12BDF8727007FCC1D /* Preview Assets.xcassets in Resources */,
+				7FF276C02BE26E96007FCC1D /* waydown.mp3 in Resources */,
+				7FF276C22BE2737E007FCC1D /* deephouse.mp3 in Resources */,
+				7FF276C42BE27387007FCC1D /* skripka.mp3 in Resources */,
 				7FF276AE2BDF8727007FCC1D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,9 +267,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FF276BA2BE0389B007FCC1D /* practice.swift in Sources */,
+				7F6D4C962BE8CB6800424557 /* CartView.swift in Sources */,
+				7F8BAD582BE612B000E36B3A /* ContentView2.swift in Sources */,
+				7F6D4C922BE8CB2000424557 /* VpnView.swift in Sources */,
+				7F6D4C9D2BE8CBDC00424557 /* CountrySelectView.swift in Sources */,
+				7F6D4C992BE8CBA900424557 /* BuyView.swift in Sources */,
+				7F6D4C902BE8CADC00424557 /* MainView.swift in Sources */,
+				7F8BAD562BE6129700E36B3A /* OrderView.swift in Sources */,
+				7F8BAD5A2BE612C100E36B3A /* CarInfo.swift in Sources */,
+				7F6D4C9F2BE8CC8400424557 /* UserPurchase.swift in Sources */,
+				7F8BAD522BE6126E00E36B3A /* OrderScreenViewModel.swift in Sources */,
+				7F8BAD542BE6128400E36B3A /* ActivityView.swift in Sources */,
+				7F6D4CA12BE8CC9500424557 /* Tariff.swift in Sources */,
+				7F6D4C942BE8CB3D00424557 /* PurchaseView.swift in Sources */,
 				7FF276BC2BE0E9C4007FCC1D /* Lesson3.swift in Sources */,
+				7FF276BE2BE252C2007FCC1D /* Lesson4.swift in Sources */,
 				7FF276B82BDFB98D007FCC1D /* Lesson2.swift in Sources */,
+				7F6D4C9B2BE8CBC500424557 /* CountryListView.swift in Sources */,
+				7F8BAD502BE6124A00E36B3A /* CurrencyFormatter.swift in Sources */,
 				7FF276AC2BDF8726007FCC1D /* Lesson1.swift in Sources */,
 				7FF276AA2BDF8726007FCC1D /* swiftuipracticeApp.swift in Sources */,
 			);
@@ -291,7 +427,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +456,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
